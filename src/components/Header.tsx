@@ -9,7 +9,8 @@ export default function Header() {
         <Link to="/gioi-thieu" className="hover:text-blue-400 transition-colors">Giới thiệu</Link>
         <Link to="/dich-vu" className="hover:text-blue-400 transition-colors">Dịch vụ</Link>
         <Link to="/du-an" className="hover:text-blue-400 transition-colors">Dự án</Link>
-        <Link to="/san-phamham" className="hover:text-blue-400 transition-colors">Sản phẩm</Link>
+        <Link to="/san-pham" className="hover:text-blue-400 transition-colors">Sản phẩm</Link>\
+      <Link to="/tin-tuc" className="hover:text-blue-400 transition-colors">Tin tức</Link>
       </nav>
       <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded font-semibold">
         YÊU CẦU TƯ VẤN
