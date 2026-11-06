@@ -4,7 +4,7 @@ export default function Home() {
   const [pageData, setPageData] = useState<any>(null)
 
   useEffect(() => {
-    fetch('https://sonijs.tranhuunghia2002.workers.dev/api/home-page')
+    fetch('https://cms-kimtinphat.tranhuunghia2002.workers.dev/api/home-page')
       .then(res => res.json())
       .then(json => {
         if (json.data && json.data.length > 0) {
