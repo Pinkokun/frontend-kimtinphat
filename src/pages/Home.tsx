@@ -21,9 +21,7 @@ export default function Home() {
   return (
     <section className="relative w-full rounded-3xl bg-[#002855] border border-blue-900/50 p-12 overflow-hidden flex">
       <div className="relative z-10 w-1/2 pr-10">
-        <div className="text-orange-400 text-sm font-bold tracking-widest mb-4">
-          TỔNG THẦU CƠ ĐIỆN LẠNH & HVAC
-        </div>
+        <div className="text-orange-400 text-sm font-bold tracking-widest mb-4">{pageData.span_text}</div>
         <h1 className="text-5xl font-extrabold leading-tight mb-6">{pageData.hero_title}</h1>
         <p className="text-lg text-blue-100 mb-8 leading-relaxed">{pageData.hero_desc}</p>
         <button className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold transition-all">
