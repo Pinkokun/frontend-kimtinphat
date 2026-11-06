@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold leading-tight mb-6">{pageData.hero_title}</h1>
         <p className="text-lg text-blue-100 mb-8 leading-relaxed">{pageData.hero_desc}</p>
         <button className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold transition-all">
-          Khám phá dịch vụ →
+           {pageData.button_hero}→
         </button>
       </div>
 
